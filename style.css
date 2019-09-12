@@ -1,0 +1,89 @@
+
+            body {
+                background: white;
+                font-family: Arial, Helvetica, sans-serif;
+                margin:0;
+                padding:0;
+            }
+            header{
+                background: black;
+                color: white;
+                background-image: url("images/back.jpg");
+                background-size: 100%;
+                background-position: center;
+                
+                height: 400px;
+                padding: 20px;
+                text-align: center;
+
+            }
+            
+            
+        
+            section{
+                background: white;
+                color:black;
+                padding: 20px;
+                display: flex;
+                flex-direction: row;
+            }
+            ul{
+                margin: 0;
+                padding: 0;
+                list-style-type: none;
+            }
+            li{
+                display: inline-block;
+                margin-right: 20px;
+            }
+            a{
+                text-decoration: none;
+            }
+            a:hover{
+                text-decoration: underline;
+            }
+            li:hover{
+                text-decoration: red;
+            }
+            div{
+                background: red;
+                width:100px;
+                height: 40px;
+                margin:auto;
+            }
+            footer{
+                background: black;
+                color:white;
+                padding: 20px;
+                font-size: 100%
+            }
+            header .logo a{
+                background-image:url("images/logo2.jpg");
+                background-size: 100%;
+                display:inline-block;
+                height: 150px;
+                text-indent: -99999999px;
+                width:300px;
+            }
+            .features{
+                background:black;
+                padding: 20px;
+                color: white;
+                display: flex;
+                flex-direction: row;
+            }
+            .features figure{
+                margin: auto;
+                text-align: center;
+                text-transform: uppercase;
+            }
+            .features figure img{
+                border-radius: 50%;
+                box-shadow: white 10px 10px 10px;
+            }
+          @media screen and(max-width: 400px){
+            .features{
+                background:red;
+            }
+          }  
+        
